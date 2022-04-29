@@ -1,0 +1,75 @@
+header {
+  background-color: #f8eee7;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+header * {
+    display: inline;
+}
+header li {
+    margin: 20px;
+}
+
+header li a {
+    color: #ef8172;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+h1 {
+  font-family: 'Lobster', cursive;
+  color: #ef8172;
+  position: absolute;
+  right: 5%;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #f8eee7;
+  background-image: url("milkshake.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  padding-top: 10%;
+  padding-bottom: 40px;
+}
+.home p {
+  max-width: 45%;
+  padding-left: 2%;
+}
+.contact {
+  background-color: #ff4c68;
+  padding-top: 20px;
+  padding-bottom:20px;
+  text-align: center;
+}
+.shake-menu {
+  text-align: center;
+}
+.shakes {
+  max-width: 60%;
+  height: auto;
+}
+
+footer {
+  position: fixed;
+  background-color: #f8eee7;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+}
+footer img {
+  max-height: 30px;
+  max-width: auto;
+  display: inline;
+  padding-left: 5%;
+  padding-right: 5%;
+}
